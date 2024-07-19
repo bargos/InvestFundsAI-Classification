@@ -1,0 +1,77 @@
+2024-06-11 16:56:39,414:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-06-11 16:56:39,414:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-06-11 16:56:39,414:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-06-11 16:56:39,414:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-06-18 16:47:53,247:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-06-18 16:47:53,247:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-06-18 16:47:53,247:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-06-18 16:47:53,247:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-06-18 16:49:00,774:WARNING:/media/eel/DATAUbuntu/Projetos/Pub2023-2024/PortModels/venv/lib/python3.10/site-packages/IPython/core/magics/osm.py:417: UserWarning: This is now an optional IPython functionality, setting dhist requires you to install the `pickleshare` library.
+  self.shell.db['dhist'] = compress_dhist(dhist)[-100:]
+
+2024-06-18 17:00:25,684:WARNING:/tmp/ipykernel_170326/2076312138.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data0['Cluster'].loc[ data0['Rentabilidade 3 meses'] < data0['Rentabilidade 3 meses'].mean()*0.85] = -1.0
+
+2024-06-18 17:01:00,115:WARNING:/tmp/ipykernel_170326/152082996.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data0['Cluster'].loc[ data0['Rentabilidade 3 meses'] > data0['Rentabilidade 3 meses'].mean()*1.10] = 1.0
+
+2024-06-25 11:02:23,360:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-06-25 11:02:23,375:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-06-25 11:02:23,375:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-06-25 11:02:23,375:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-06-25 11:02:43,045:WARNING:/media/eel/DATAUbuntu/Projetos/Pub2023-2024/PortModels/venv/lib/python3.10/site-packages/IPython/core/magics/osm.py:417: UserWarning: This is now an optional IPython functionality, setting dhist requires you to install the `pickleshare` library.
+  self.shell.db['dhist'] = compress_dhist(dhist)[-100:]
+
+2024-06-27 08:33:32,965:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-06-27 08:33:32,979:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-06-27 08:33:32,980:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-06-27 08:33:32,980:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-06-27 08:33:44,872:WARNING:/media/eel/DATAUbuntu/Projetos/Pub2023-2024/PortModels/venv/lib/python3.10/site-packages/IPython/core/magics/osm.py:417: UserWarning: This is now an optional IPython functionality, setting dhist requires you to install the `pickleshare` library.
+  self.shell.db['dhist'] = compress_dhist(dhist)[-100:]
+
+2024-06-27 09:04:26,709:WARNING:/tmp/ipykernel_22213/2721556527.py:6: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data['Cluster'].loc[ data['Rentabilidade 6 meses'] < (data['Rentabilidade 6 meses'].mean() - 0.5*data['Rentabilidade 6 meses'].std())] = -1.0
+
+2024-06-27 09:04:26,711:WARNING:/tmp/ipykernel_22213/2721556527.py:7: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data['Cluster'].loc[ data['Rentabilidade 6 meses'] > (data['Rentabilidade 6 meses'].mean() + 0.5*data['Rentabilidade 6 meses'].std())] =  1.0
+
+2024-06-27 09:07:24,463:WARNING:/tmp/ipykernel_22213/1496181730.py:6: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data['Cluster'].loc[ data['Rentabilidade 3 meses'] < (data['Rentabilidade 3 meses'].mean() - 0.5*data['Rentabilidade 3 meses'].std())] = -1.0
+
+2024-06-27 09:07:24,465:WARNING:/tmp/ipykernel_22213/1496181730.py:7: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data['Cluster'].loc[ data['Rentabilidade 3 meses'] > (data['Rentabilidade 3 meses'].mean() + 0.5*data['Rentabilidade 3 meses'].std())] =  1.0
+
